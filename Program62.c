@@ -11,7 +11,8 @@ bool CheckPallindrome(int iNo)
         iDigit = iNo % 10;
         iRev = (iRev * 10) + iDigit;
         iNo = iNo / 10;
-    }
+//    
+}
 
     if(iRev == iTemp)
     {
